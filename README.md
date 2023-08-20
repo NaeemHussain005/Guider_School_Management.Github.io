@@ -1,1 +1,1 @@
-# Guider_School_Management.Github.io
+# guiderschool.github.io

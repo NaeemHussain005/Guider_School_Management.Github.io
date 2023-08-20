@@ -1,0 +1,12 @@
+<?php
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use DB;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+class DashboardController extends Controller {
+public function index1(){
+$users = DB::select('select * from postsjob');
+return view('viewposts',['users'=>$users]);
+}
+}
