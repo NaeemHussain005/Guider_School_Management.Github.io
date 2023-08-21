@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use App\Models\Announcement;
 use App\Models\Admission;
+use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Storage;
 use DB;
 use Illuminate\Http\Request;
 
@@ -74,15 +76,28 @@ class AdmitController extends Controller
 
     return redirect()->back()->with('success', 'Admission application submitted successfully');
 }
-    public function download(Request $request,$file)
-            {
- 
-               return response()->download(public_path('assets/'.$file));
-            }
-               public function view($id)
-            {
-               $data=admission::find($id);
+public function download(Request $request,$cv_file)
+{
 
-               return view('view',compact('data'));
-            }
+   
+   return response()->download(public_path('assets/'.$cv_file));
+}
+public function downloadfile(Request $request,$result_file)
+{
+
+   
+   return response()->download(public_path('assets/'.$result_file));
+}
+   public function view($id)
+{
+   $data=Admission::find($id);
+
+   return view('viewfile',compact('data'));
+}
+public function viewfile($id)
+{
+   $data=Admission::find($id);
+
+   return view('viewfileresult',compact('data'));
+}
     }
