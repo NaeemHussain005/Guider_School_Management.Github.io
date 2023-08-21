@@ -44,4 +44,8 @@ Route::get('/applyadmission', [App\Http\Controllers\AdmitController::class, 'app
 Route::get('/viewapplicant', [App\Http\Controllers\ApplicantController::class, 'show'])->name('viewapplicant');
 Route::get('delete/{id}', [App\Http\Controllers\HomeController::class, 'des']);
 Route::get('delete-records', [App\Http\Controllers\HomeController::class, 'end']);
+Route::get('/download/{file}', [App\Http\Controllers\AdmitController::class,'download']);
+Route::get('/downloadresult/{file}', [App\Http\Controllers\AdmitController::class,'downloadfile']);
+Route::get('/view/{is}', [App\Http\Controllers\AdmitController::class, 'view']);
+Route::get('/viewfile/{is}', [App\Http\Controllers\AdmitController::class, 'viewfile']);
 
