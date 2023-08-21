@@ -106,12 +106,10 @@
                         </div>
                     </form>
                     <br>
-                    <button class="go-back-btn" style="padding: 10px 20px; background-color: #1969b3; color: white; line-height: 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold; text-decoration: none;"
-                            onmouseover="this.style.backgroundColor='white'; this.style.color='#1969b3'; this.style.border='2px solid #1969b3';"
-                            onmouseout="this.style.backgroundColor='#1969b3'; this.style.color='white'; this.style.border='none';">
-                        <span style="margin-right: 5px; font-size: 12px; line-height: 12px;">&#8592;</span><a href="{{ route('jobs') }}" style="color: white; text-decoration: none;"
-                                                                                                              onmouseover="this.style.color='#1969b3';"
-                                                                                                              onmouseout="this.style.color='white';"> Go Back</a>
+                    <button style="padding: 10px 20px; background-color: #1969b3; color: white; line-height: 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold; text-decoration: none;"
+                    onmouseover="this.style.backgroundColor='white'; this.style.color='#1969b3'; this.style.border='2px solid #1969b3';"
+                    onmouseout="this.style.backgroundColor='#1969b3'; this.style.color='white'; this.style.border='none';">
+                    <span style="margin-right: 5px; font-size: 12px; line-height: 12px;">&#8592;</span> <a href="{{ route('career') }}"> Go Back
                     </button>
                 </div>
             </div>
@@ -119,14 +117,14 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="backend/asset/vendor/jquery/jquery.min.js"></script>
+    <script src="asset/vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->
-    <script src="backend/asset/vendor/select2/select2.min.js"></script>
-    <script src="backend/asset/vendor/datepicker/moment.min.js"></script>
-    <script src="backend/asset/vendor/datepicker/daterangepicker.js"></script>
+    <script src="asset/vendor/select2/select2.min.js"></script>
+    <script src="asset/vendor/datepicker/moment.min.js"></script>
+    <script src="asset/vendor/datepicker/daterangepicker.js"></script>
 
     <!-- Main JS-->
-    <script src="backend/asset/js/global.js"></script>
+    <script src="asset/js/global.js"></script>
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>

@@ -16,7 +16,7 @@
                         <ul class="d-flex flex-wrap align-items-center">
                             <li>
                                 <h1 data-animation="animated slideInUp" class="">Join the biggest community of Guider</h1>
-                                <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="{{ route('about') }}">Learn more</a>
+                                <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Learn more</a>
                                 <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{ route('course') }}">View Courses</a></li>
                             <!-- Buttons and text container -->
                             <!-- YouTube video button -->
@@ -42,7 +42,8 @@
             <div class="row">
                 <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__heading_area mb_15">
-                        <h2>Our Core Values</h2>
+                        <h5>OUR COURSE CATEGORIES</h5>
+                        <h2>We success for categories creative students.</h2>
                     </div>
                 </div>
             </div>
@@ -53,8 +54,8 @@
                             <i class="fal fa-book"></i>
                         </div>
                         <div class="tf__single_category_text">
-                            <h3>Respect</h3>
-                            <p>We treat every individual with kindness,fostering a welcoming and inclusive environment for all.</p>
+                            <h3>Music Conference</h3>
+                            <p>We can provide you with a handyan in London.</p>
                         </div>
                     </div>
                 </div>
@@ -64,8 +65,8 @@
                             <i class="fal fa-book"></i>
                         </div>
                         <div class="tf__single_category_text">
-                            <h3>Excellence</h3>
-                            <p>We strive for continuous improvement and aim to achieve the highest standards.</p>
+                            <h3>Book Exclusive</h3>
+                            <p>We can provide you with a handyan in London.</p>
                         </div>
                     </div>
                 </div>
@@ -75,8 +76,8 @@
                             <i class="fal fa-book"></i>
                         </div>
                         <div class="tf__single_category_text">
-                            <h3>Collaboration</h3>
-                            <p>We value teamwork, cooperation, and open communication, to achieve more.</p>
+                            <h3>School Study</h3>
+                            <p>We can provide you with a handyan in London.</p>
                         </div>
                     </div>
                 </div>
@@ -86,8 +87,8 @@
                             <i class="fal fa-book"></i>
                         </div>
                         <div class="tf__single_category_text">
-                            <h3>Integrity</h3>
-                            <p>We uphold the highest standards of honesty, transparency, & ethical behavior in all our actions.</p>
+                            <h3>School Study</h3>
+                            <p>We can provide you with a handyan in London.</p>
                         </div>
                     </div>
                 </div>
@@ -97,8 +98,8 @@
                             <i class="fal fa-book"></i>
                         </div>
                         <div class="tf__single_category_text">
-                            <h3>Responsibility</h3>
-                            <p>We take ownership of our actions and choices, understanding their impact on our surroundings.</p>
+                            <h3>Exclusive Party</h3>
+                            <p>We can provide you with a handyan in London.</p>
                         </div>
                     </div>
                 </div>
@@ -108,8 +109,8 @@
                             <i class="fal fa-book"></i>
                         </div>
                         <div class="tf__single_category_text">
-                            <h3>Joy of Learning</h3>
-                            <p>We foster a love for learning by creating an engaging and inspiring educational environment.</p>
+                            <h3>Exclusive Man</h3>
+                            <p>We can provide you with a handyan in London.</p>
                         </div>
                     </div>
                 </div>
@@ -137,30 +138,35 @@
                     <div class="col-xl-7 col-lg-7">
                         <div class="tf__about_top_text">
                             <div class="tf__about_top_text_center">
-                                <h4>Our Vision</h4>
-                                <p>Empowering Tomorrow's Leaders: A Journey of Excellence, Character, and Innovation</p>
+                                <h4>Study Off Flexibly</h4>
+                                <p>We can provide you with a reliable handyan in
+                                    Please input an email address down below
+                                    school. Please input anand school.
+                                    included the today.</p>
                             </div>
-                            <a href="{{ route('about') }}" class="common_btn">read more</a>
+                            <a href="#" class="common_btn">read more</a>
                         </div>
                     </div>
                 </div>
             </div>
  
             <div class="row">
-                <div class="col-xl-5 col-md-8 col-lg-5 wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="col-xl-6 col-md-9 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
                     <div class="tf__about_text">
                         <div class="tf__heading_area tf__heading_area_left mb_25">
-                            <h2>Our Objectives</h2>
+                            <h5>OUR About Us</h5>
+                            <h2>District is Made of about Students Childhood.</h2>
                         </div>
+                        <p>Business tailored it design, management & support services
+                            business agency elit, sed do eiusmod tempor. </p>
                         <ul>
-                            <li>Improve Academic Performance.</li>
-                            <li>Enhance Extracurricular Opportunities.</li>
-                            <li>Character Education.</li>
-                            <li>Cultural Exchange Initiatives.</li>
-                            <li>Technology Integration.</li>
-                            <li>Parent-Teacher Collaboration.</li>
+                            <li>Business school's Institut constructivism.</li>
+                            <li>We give management school best.</li>
+                            <li>Media in this school solution.</li>
+                            <li>Business school's Institut constructivism.</li>
+                            <li>We give management school best.</li>
                         </ul>
-                        <a href="{{ route('about') }}" class="common_btn">about more</a>
+                        <a href="#" class="common_btn">about more</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-sm-9 col-md-8 col-lg-6 wow fadeInRight" data-wow-duration="1.5s">
@@ -168,8 +174,8 @@
                         <img src="{{ asset('images/about_img.png') }}" alt="about" class="img-fluid w-100">
                         <div class="text">
                             <i class="far fa-check-circle"></i>
-                            <h3>100+</h3>
-                            <p>Complete Courses</p>
+                            <h3>183k+</h3>
+                            <p>Complete Projects</p>
                         </div>
                     </div>
                 </div>
@@ -189,7 +195,8 @@
             <div class="row">
                 <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__heading_area mb_40">
-                        <h2>OUR Upcoming Events</h2>
+                        <h5>OUR Upcoming Events</h5>
+                        <h2>Complete About Students Advance Course.</h2>
                     </div>
                 </div>
             </div>
@@ -201,9 +208,15 @@
                             <a class="event_category blue" href="#">school</a>
                         </div>
                         <div class="tf__single_event_text">
+                            <ul>
+                                <li><i class="far fa-map-marker-alt"></i> London,Dhaka</li>
+                                <li><i class="far fa-clock"></i> 08.00 am - 10.00 am</li>
+                            </ul>
                             <a class="title" href="event_details.html">Outdoor This Games</a>
                             <p>We can provide you with a reliable handyan in London you need to included the today..</p>
                             <div class="tf__single_event_footer">
+                                <span>hasan mahmud</span>
+                                <span>$50.00</span>
                             </div>
                         </div>
                     </div>
@@ -215,9 +228,15 @@
                             <a class="event_category orange" href="#">Drawing</a>
                         </div>
                         <div class="tf__single_event_text">
+                            <ul>
+                                <li><i class="far fa-map-marker-alt"></i> London,Dhaka</li>
+                                <li><i class="far fa-clock"></i> 08.00 am - 10.00 am</li>
+                            </ul>
                             <a class="title" href="#">Engineering Studies</a>
                             <p>We can provide you with a reliable handyan in London you need to included the today..</p>
                             <div class="tf__single_event_footer">
+                                <span>tuhin imroz</span>
+                                <span>$99.00</span>
                             </div>
                         </div>
                     </div>
@@ -229,9 +248,15 @@
                             <a class="event_category green" href="#">sports</a>
                         </div>
                         <div class="tf__single_event_text">
+                            <ul>
+                                <li><i class="far fa-map-marker-alt"></i> London,Dhaka</li>
+                                <li><i class="far fa-clock"></i> 08.00 am - 10.00 am</li>
+                            </ul>
                             <a class="title" href="#">School Book Study</a>
                             <p>We can provide you with a reliable handyan in London you need to included the today..</p>
                             <div class="tf__single_event_footer">
+                                <span>alamin ahmed</span>
+                                <span>$120.00</span>
                             </div>
                         </div>
                     </div>
@@ -243,9 +268,15 @@
                             <a class="event_category red" href="#">writing</a>
                         </div>
                         <div class="tf__single_event_text">
+                            <ul>
+                                <li><i class="far fa-map-marker-alt"></i> London,Dhaka</li>
+                                <li><i class="far fa-clock"></i> 08.00 am - 10.00 am</li>
+                            </ul>
                             <a class="title" href="#">Engineering Studies</a>
                             <p>We can provide you with a reliable handyan in London you need to included the today..</p>
                             <div class="tf__single_event_footer">
+                                <span>aslam hossain</span>
+                                <span>$80.00</span>
                             </div>
                         </div>
                     </div>
@@ -261,97 +292,97 @@
     <!--=================================
         FAQ START
     ==================================-->
-{{--    <section class="tf__faq mt_100 pt_95 xs_pt_100 pb_100" style="background: url(images/faq_bg.png);">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">--}}
-{{--                    <div class="tf__faq_img">--}}
-{{--                        <img src="{{ asset('images/faq_img.jpg') }}" alt="faqs" class="img-fluid w-100">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-xl-6 col-lg-6 wow fadeInRight" data-wow-duration="1.5s">--}}
-{{--                    <div class="tf__faq_text">--}}
-{{--                        <div class="tf__heading_area tf__heading_area_left mb_25">--}}
-{{--                            <h5>OUR EDUCATION Faq</h5>--}}
-{{--                            <h2>District is Made of about Students Childhood.</h2>--}}
-{{--                        </div>--}}
-{{--                        <p class="description">Business tailored it design, management & support services--}}
-{{--                            business agency elit, sed do eiusmod tempor. </p>--}}
-{{--                        <div class="tf__faq_accordion">--}}
-{{--                            <div class="accordion" id="accordionExample">--}}
-{{--                                <div class="accordion-item orange">--}}
-{{--                                    <h2 class="accordion-header" id="headingOne">--}}
-{{--                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"--}}
-{{--                                            data-bs-target="#collapseOne" aria-expanded="true"--}}
-{{--                                            aria-controls="collapseOne">--}}
-{{--                                            Maecenas facilisis erat id odio--}}
-{{--                                        </button>--}}
-{{--                                    </h2>--}}
-{{--                                    <div id="collapseOne" class="accordion-collapse collapse show"--}}
-{{--                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">--}}
-{{--                                        <div class="accordion-body">--}}
-{{--                                            <p>There are many variations of passages of is psum available, but the--}}
-{{--                                                majority have suffered alteration in some we form, by injected humour.--}}
-{{--                                                but the majority have suffered alteration.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="accordion-item green">--}}
-{{--                                    <h2 class="accordion-header" id="headingTwo">--}}
-{{--                                        <button class="accordion-button collapsed" type="button"--}}
-{{--                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"--}}
-{{--                                            aria-expanded="false" aria-controls="collapseTwo">--}}
-{{--                                            Phasellus et vehicula nulla--}}
-{{--                                        </button>--}}
-{{--                                    </h2>--}}
-{{--                                    <div id="collapseTwo" class="accordion-collapse collapse"--}}
-{{--                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">--}}
-{{--                                        <div class="accordion-body">--}}
-{{--                                            <p>There are many variations of passages of is psum available, but the--}}
-{{--                                                majority have suffered alteration in some we form, by injected humour.--}}
-{{--                                                but the majority have suffered alteration.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="accordion-item red">--}}
-{{--                                    <h2 class="accordion-header" id="headingThree">--}}
-{{--                                        <button class="accordion-button collapsed" type="button"--}}
-{{--                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"--}}
-{{--                                            aria-expanded="false" aria-controls="collapseThree">--}}
-{{--                                            Maecenas malesuada--}}
-{{--                                        </button>--}}
-{{--                                    </h2>--}}
-{{--                                    <div id="collapseThree" class="accordion-collapse collapse"--}}
-{{--                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">--}}
-{{--                                        <div class="accordion-body">--}}
-{{--                                            <p>There are many variations of passages of is psum available, but the--}}
-{{--                                                majority have suffered alteration in some we form, by injected humour.--}}
-{{--                                                but the majority have suffered alteration.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="accordion-item blue">--}}
-{{--                                    <h2 class="accordion-header" id="headingThree1">--}}
-{{--                                        <button class="accordion-button collapsed" type="button"--}}
-{{--                                            data-bs-toggle="collapse" data-bs-target="#collapseThree1"--}}
-{{--                                            aria-expanded="false" aria-controls="collapseThree1">--}}
-{{--                                            Why you join our team--}}
-{{--                                        </button>--}}
-{{--                                    </h2>--}}
-{{--                                    <div id="collapseThree1" class="accordion-collapse collapse"--}}
-{{--                                        aria-labelledby="headingThree1" data-bs-parent="#accordionExample">--}}
-{{--                                        <div class="accordion-body">--}}
-{{--                                            <p>There are many variations of passages of is psum available, but the--}}
-{{--                                                majority have suffered alteration in some we form, by injected humour.--}}
-{{--                                                but the majority have suffered alteration.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+    <section class="tf__faq mt_100 pt_95 xs_pt_100 pb_100" style="background: url(images/faq_bg.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
+                    <div class="tf__faq_img">
+                        <img src="{{ asset('images/faq_img.jpg') }}" alt="faqs" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 wow fadeInRight" data-wow-duration="1.5s">
+                    <div class="tf__faq_text">
+                        <div class="tf__heading_area tf__heading_area_left mb_25">
+                            <h5>OUR EDUCATION Faq</h5>
+                            <h2>District is Made of about Students Childhood.</h2>
+                        </div>
+                        <p class="description">Business tailored it design, management & support services
+                            business agency elit, sed do eiusmod tempor. </p>
+                        <div class="tf__faq_accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item orange">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Maecenas facilisis erat id odio
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>There are many variations of passages of is psum available, but the
+                                                majority have suffered alteration in some we form, by injected humour.
+                                                but the majority have suffered alteration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item green">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Phasellus et vehicula nulla
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>There are many variations of passages of is psum available, but the
+                                                majority have suffered alteration in some we form, by injected humour.
+                                                but the majority have suffered alteration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item red">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Maecenas malesuada
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>There are many variations of passages of is psum available, but the
+                                                majority have suffered alteration in some we form, by injected humour.
+                                                but the majority have suffered alteration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item blue">
+                                    <h2 class="accordion-header" id="headingThree1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree1"
+                                            aria-expanded="false" aria-controls="collapseThree1">
+                                            Why you join our team
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree1" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree1" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>There are many variations of passages of is psum available, but the
+                                                majority have suffered alteration in some we form, by injected humour.
+                                                but the majority have suffered alteration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--=================================
@@ -367,7 +398,8 @@
             <div class="row">
                 <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__heading_area mb_35 md_margin">
-                        <h2>Our Activities</h2>
+                        <h5>OUR Working now</h5>
+                        <h2>Complete About Students Advance Course.</h2>
                     </div>
                 </div>
             </div>
@@ -378,7 +410,7 @@
                             <img src="{{ asset('images/work_img_1.jpg') }}" alt="work" class="img-fluid w-100">
                         </div>
                         <div class="tf__work_single_text">
-                            <h3>Drawing Competition</h3>
+                            <h3>Drawing Powerful</h3>
                             <p>We can provide you with a reliable handyan in London. you need to included the today.</p>
                             <a href="#"><i class="fas fa-long-arrow-right"></i></a>
                         </div>
@@ -390,7 +422,7 @@
                             <img src="{{ asset('images/work_img_2.jpg') }}" alt="work" class="img-fluid w-100">
                         </div>
                         <div class="tf__work_single_text">
-                            <h3>Debate Competition</h3>
+                            <h3>Classes Completed</h3>
                             <p>We can provide you with a reliable handyan in London. you need to included the today.</p>
                             <a href="#"><i class="fas fa-long-arrow-right"></i></a>
                         </div>
@@ -402,7 +434,7 @@
                             <img src="{{ asset('images/work_img_3.jpg') }}" alt="work" class="img-fluid w-100">
                         </div>
                         <div class="tf__work_single_text">
-                            <h3> One Dish Party</h3>
+                            <h3> Techniques Teens</h3>
                             <p>We can provide you with a reliable handyan in London. you need to included the today.</p>
                             <a href="#"><i class="fas fa-long-arrow-right"></i></a>
                         </div>
@@ -414,7 +446,7 @@
                             <img src="{{ asset('images/work_img_4.jpg') }}" alt="work" class="img-fluid w-100">
                         </div>
                         <div class="tf__work_single_text">
-                            <h3>Students Week</h3>
+                            <h3>Classes Completed</h3>
                             <p>We can provide you with a reliable handyan in London. you need to included the today.</p>
                             <a href="#"><i class="fas fa-long-arrow-right"></i></a>
                         </div>
@@ -431,83 +463,83 @@
     <!--=================================
         TESTIMONIAL START
     ==================================-->
-{{--    <section class="tf___testimonial mt_100 pt_95 pb_100" style="background: url({{ asset('images/testimonial_bg.jpg') }});">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-xl-6 col-xxl-5 col-md-8 col-lg-6 m-auto">--}}
-{{--                    <div class="tf__heading_area mb_50">--}}
-{{--                        <h5>OUR Testiomonials</h5>--}}
-{{--                        <h2>We have helped create clients say me.</h2>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="row testimonial_slider">--}}
-{{--                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1.5s">--}}
-{{--                    <div class="tf__single_testimonial">--}}
-{{--                        <div class="icon">--}}
-{{--                            <i class="fas fa-quote-left"></i>--}}
-{{--                        </div>--}}
-{{--                        <p class="description">There are many variations of passages of Lorem Ipsum available, but the--}}
-{{--                            majority have suffered alteration in some form by injected humour</p>--}}
-{{--                        <div class="img">--}}
-{{--                            <img src="{{ asset('images/client_img_1.png') }}" alt="client" class="img-f;uid w-100">--}}
-{{--                        </div>--}}
-{{--                        <h3 class="title">Porata Masat</h3>--}}
-{{--                        <p class="designation">Devlopment</p>--}}
-{{--                        <p class="rating">--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star"></i>--}}
-{{--                            <i class="fas fa-star"></i>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1.5s">--}}
-{{--                    <div class="tf__single_testimonial">--}}
-{{--                        <div class="icon">--}}
-{{--                            <i class="fas fa-quote-left"></i>--}}
-{{--                        </div>--}}
-{{--                        <p class="description">There are many variations of passages of Lorem Ipsum available, but the--}}
-{{--                            majority have suffered alteration in some form by injected humour</p>--}}
-{{--                        <div class="img">--}}
-{{--                            <img src="{{ asset('images/client_img_2.png') }}" alt="client" class="img-f;uid w-100">--}}
-{{--                        </div>--}}
-{{--                        <h3 class="title">Borata Mara</h3>--}}
-{{--                        <p class="designation">Devlopment</p>--}}
-{{--                        <p class="rating">--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star"></i>--}}
-{{--                            <i class="fas fa-star"></i>--}}
-{{--                            <i class="fas fa-star"></i>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1.5s">--}}
-{{--                    <div class="tf__single_testimonial">--}}
-{{--                        <div class="icon">--}}
-{{--                            <i class="fas fa-quote-left"></i>--}}
-{{--                        </div>--}}
-{{--                        <p class="description">There are many variations of passages of Lorem Ipsum available, but the--}}
-{{--                            majority have suffered alteration in some form by injected humour</p>--}}
-{{--                        <div class="img">--}}
-{{--                            <img src="{{ asset('images/client_img_3.png') }}" alt="client" class="img-f;uid w-100">--}}
-{{--                        </div>--}}
-{{--                        <h3 class="title">Borata Mara</h3>--}}
-{{--                        <p class="designation">Devlopment</p>--}}
-{{--                        <p class="rating">--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star fill"></i>--}}
-{{--                            <i class="fas fa-star"></i>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
+    <section class="tf___testimonial mt_100 pt_95 pb_100" style="background: url({{ asset('images/testimonial_bg.jpg') }});">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-xxl-5 col-md-8 col-lg-6 m-auto">
+                    <div class="tf__heading_area mb_50">
+                        <h5>OUR Testiomonials</h5>
+                        <h2>We have helped create clients say me.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row testimonial_slider">
+                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="tf__single_testimonial">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="description">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form by injected humour</p>
+                        <div class="img">
+                            <img src="{{ asset('images/client_img_1.png') }}" alt="client" class="img-f;uid w-100">
+                        </div>
+                        <h3 class="title">Porata Masat</h3>
+                        <p class="designation">Devlopment</p>
+                        <p class="rating">
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="tf__single_testimonial">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="description">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form by injected humour</p>
+                        <div class="img">
+                            <img src="{{ asset('images/client_img_2.png') }}" alt="client" class="img-f;uid w-100">
+                        </div>
+                        <h3 class="title">Borata Mara</h3>
+                        <p class="designation">Devlopment</p>
+                        <p class="rating">
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="tf__single_testimonial">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="description">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form by injected humour</p>
+                        <div class="img">
+                            <img src="{{ asset('images/client_img_3.png') }}" alt="client" class="img-f;uid w-100">
+                        </div>
+                        <h3 class="title">Borata Mara</h3>
+                        <p class="designation">Devlopment</p>
+                        <p class="rating">
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star fill"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--=================================
         TESTIMONIAL END
     ==================================-->
@@ -521,18 +553,19 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
                     <div class="tf__heading_area tf__heading_area_left mb_20">
-                        <h2>Our Uniform Code</h2>
+                        <h5>OUR Best ACTIVITIES</h5>
+                        <h2>We School Be Happy With Our Activities.</h2>
                     </div>
                     <div class="tf__activities_text">
-                        <p>At Guider School, we believe that a consistent dress code contributes to a positive learning environment and helps foster a
-                            sense of community among students. Our uniform code is designed to uphold standards of professionalism, respect, and inclusivity. We appreciate your cooperation in adhering to these guidelines. </p>
+                        <p>Business tailored it design, management & support services
+                            business agency elit, sed do eiusmod tempor. </p>
                         <div class="row">
                             <div class="col-xl-6 col-sm-6">
                                 <div class="tf__activities_item light_blue">
                                     <span>
                                         <i class="fal fa-book"></i>
                                     </span>
-                                    <h3>Tops</h3>
+                                    <h3>Parenting Bill</h3>
                                 </div>
                                 <div class="tf__activities_item green">
                                     <span>
@@ -584,8 +617,9 @@
                                 href="https://youtu.be/xsnCYCEbdr4">
                                 <i class="fas fa-play"></i>
                             </a>
-                            <h4>Unlock your potential and embark on a journey of excellence at Guider School –
-                                where opportunities for growth and success await."</h4>
+                            <h4>Let’s best Something Agency</h4>
+                            <p>There are many variations of passages of agency
+                                Lorem Ipsum Fasts injecte.</p>
                             <a class="common_btn" href="#">Apply Now</a>
                         </div>
                     </div>
@@ -606,6 +640,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__heading_area mb_15">
+                        <h5>LATEST NEWS & BLOG</h5>
                         <h2>Our latest Blog And News.</h2>
                     </div>
                 </div>
@@ -617,9 +652,11 @@
                             <img src="{{ asset('images/blog_1.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
-                            <a class="category light_blue" href="#">Sports Week</a>
-                            <a class="title" href="#">Dive into a world of energy, teamwork,
-                                and healthy competition during our exhilarating Sports Week at [Your School Name].</a>
+                            <a class="category light_blue" href="#">design</a>
+                            <a class="title" href="#">Learn with these award winning best
+                                blog collage courses</a>
+                            <p>We can provide you with a reliable hand
+                                in London you need to the today.</p>
                             <a class="read_btn" href="#">Read More <i class="fas fa-chevron-circle-right"></i></a>
                         </div>
                     </div>     
@@ -630,9 +667,11 @@
                             <img src="{{ asset('images/blog_2.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
-                            <a class="category orange" href="#">Students Week</a>
-                            <a class="title" href="#">Experience a dynamic and enriching week filled with engaging workshops, inspiring talks, thrilling competitions, and unforgettable moments during
-                                our vibrant Students Week at [Your School Name]. Join us as we celebrate learning, creativity, and community activity.</a>
+                            <a class="category orange" href="#">wordpress</a>
+                            <a class="title" href="#">Learn with these award winning best
+                                blog collage courses</a>
+                            <p>We can provide you with a reliable hand
+                                in London you need to the today.</p>
                             <a class="read_btn" href="#">Read More <i class="fas fa-chevron-circle-right"></i></a>
                         </div>
                     </div>
@@ -643,27 +682,29 @@
                             <img src="{{ asset('images/blog_3.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
-                            <a class="category green" href="#">Annual Day</a>
-                            <a class="title" href="#">Experience a vibrant showcase of talent, creativity, and unity at our much-awaited Annual Day – a celebration
-                                where our students take the stage to shine brightly and share the joy of learning with our school community.</a>
+                            <a class="category green" href="#">english</a>
+                            <a class="title" href="#">Learn with these award winning best
+                                blog collage courses</a>
+                            <p>We can provide you with a reliable hand
+                                in London you need to the today.</p>
                             <a class="read_btn" href="#">Read More <i class="fas fa-chevron-circle-right"></i></a>
                         </div>
                     </div>
-{{--                </div>--}}
-{{--                <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">--}}
-{{--                    <div class="tf__single_blog">--}}
-{{--                        <a class="tf__single_blog_img" href="#">--}}
-{{--                            <img src="{{ asset('images/blog_4.jpg') }}" alt="blog" class="img-fluid w-100">--}}
-{{--                        </a>--}}
-{{--                        <div class="tf__single_blog_text">--}}
-{{--                            <a class="category red" href="#">UI/UX</a>--}}
-{{--                            <a class="title" href="#">Learn with these award winning best--}}
-{{--                                blog collage courses</a>--}}
-{{--                            <p>We can provide you with a reliable hand--}}
-{{--                                in London you need to the today.</p>--}}
-{{--                            <a class="read_btn" href="#">Read More <i class="fas fa-chevron-circle-right"></i></a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
+                </div>
+                <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="tf__single_blog">
+                        <a class="tf__single_blog_img" href="#">
+                            <img src="{{ asset('images/blog_4.jpg') }}" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="tf__single_blog_text">
+                            <a class="category red" href="#">UI/UX</a>
+                            <a class="title" href="#">Learn with these award winning best
+                                blog collage courses</a>
+                            <p>We can provide you with a reliable hand
+                                in London you need to the today.</p>
+                            <a class="read_btn" href="#">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

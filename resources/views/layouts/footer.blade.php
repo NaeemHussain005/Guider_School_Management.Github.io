@@ -1,54 +1,4 @@
-<style>
-    /* Add your custom styles here */
-    .custom-bg {
-        background-color: #f3f7fb; /* Blue background color */
-    }
-    .custom-container {
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        margin-top: 20px; /* Add top margin to create space */
-    }
-    .principal-picture {
-        border: 5px solid #ffffff;
-        border-radius: 10px;
-        max-width: 100%;
-        height: auto;
-    }
-    .message-box {
-        background-color: #ffffff;
-        border-radius: 20px;
-        padding: 60px;
-    }
-    .teacher-name {
-        font-weight: bold; /* Make the teacher's name bold */
-        color: #00e74d; /* Highlighted text color (red in this example) */
-        margin-top: 10px; /* Add a margin at the top to separate from the photo */
-    }
-</style>
-</head>
-<body>
-<section class="custom-bg py-0">
-    <div class="container custom-container text-center">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <img src="{{ asset('images/principal.jpg') }}" alt="Principal Picture" class="principal-picture">
-                <p class="teacher-name">Haider Abbass</p>
-            </div>
-            <div class="col-md-8">
-                <div class="message-box">
-                    <h2>Principal's Message</h2>
-                    <p><b>It is easier to build strong children than to repair broken men." A wise quote
-                        referring to the role that children could play in laying the foundation of a strong nation.
-                        We believe in nurturing our students to become confident and responsible individuals, capable
-                        of making a positive impact on society. Quality education is the key to their success, and we
-                            are committed to providing the best learning environment.</b></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--=================================
+ <!--=================================
         FOOTER START
     ==================================-->
     <footer class="tf__footer mt_100" style="background: url({{ asset('images/footer_bg.jpg') }});">
@@ -60,8 +10,8 @@
                             <a class="footer_logo" href="{{ route('home') }}>
                                 <img src="{{ url('images/footer_logo.png') }}" alt="Guider" class="img-fluid w-100">
                             </a>
-                            <p>The Guiders School and College, Danyore, Gilgit.
-                                 Full Address. Alamdar Road Danyore Gilgit. Grade Level.
+                            <p>The Guiders School and College, Danyore, Gilgit. 
+                                 Full Address. Alamdar Road Danyore Gilgit. Grade Level. 
                                  Number of Teachers. 21-30. Number of Sections. .</p>
                             <ul class="d-flex flex-wrap">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -76,7 +26,7 @@
                         <div class="tf__footer_content xs_mt_50">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="{{ route('home') }}">Home</a></li>
+                                <li><a href="{{ route('main') }}">Home</a></li>
                                 <li><a href="{{ route('about') }}">About</a></li>
                                 <li><a href="{{ route('team') }}">Our Team</a></li>
                                 <li><a href="{{ route('contact') }}">Contact</a></li>

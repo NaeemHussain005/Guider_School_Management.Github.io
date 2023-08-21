@@ -25,7 +25,7 @@
     <!-- Main CSS-->
     <link href="asset/css/main.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="{{ asset('asset/css/main.css') }}">
-
+    
 </head>
 <body>
     <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
@@ -54,9 +54,9 @@
                         <h5>Name</H5>
                             <input class="input--style-2" type="text" placeholder="" name="name" Required>
                         </div>
-
+                       
                         <div class="row row-space">
-                            <div class="col-2">
+                            <div class="col-2"> 
                             </div>
                         </div>
                         <div class="input-group">
@@ -69,7 +69,7 @@
                             <h5>Gender</h5>
                                     <input type="radio" name="gender" value="M"> Male
                                     <input type="radio" name="gender" value="F"> Female
-
+                    
                             </div>
                         <div class="input-group">
                         <h5>Date Of Birth</H5>
@@ -89,7 +89,7 @@
                              <input class="input--style-2" type="text" placeholder="03241341541" name="phone_no" Required>
                             </div>
                         </div>
-
+                        
                         <div class="input-group">
                         <h5>CNIC No</H5>
                             <div class="rs-select2 js-select-simple select--no-search">
@@ -133,8 +133,8 @@
                                                  <input class="input--style-2" type="text" placeholder="" name="school_name" Required>
                                                 </div>
                                             </div>
-
-
+						
+                        
 						<div class="input-group">
 						<h5>Upload School Leaving Certificate</H5>
                             <div class="rs-select2 js-select-simple select--no-search">
@@ -152,16 +152,11 @@
                         </div>
                     </form>
                     <br>
-                    <button style="display: inline-block; padding: 10px 20px; background-color: #1969b3; color: white; line-height: 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold; text-decoration: none; position: relative;"
-                            onmouseover="this.style.backgroundColor='white'; this.style.color='#1969b3'; this.style.border='2px solid #1969b3';"
-                            onmouseout="this.style.backgroundColor='#1969b3'; this.style.color='white'; this.style.border='none';">
-                        <span style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); color: #f34c4c; font-size: 12px;">&#8592;</span>
-                        <a href="{{ route('admit') }}" style="color: #f34c4c;">Go Back</a>
+                    <button style="padding: 10px 20px; background-color: #1969b3; color: white; line-height: 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold; text-decoration: none;"
+                    onmouseover="this.style.backgroundColor='white'; this.style.color='#1969b3'; this.style.border='2px solid #1969b3';"
+                    onmouseout="this.style.backgroundColor='#1969b3'; this.style.color='white'; this.style.border='none';">
+                    <span style="margin-right: 5px; font-size: 12px; line-height: 12px;">&#8592;</span> <a href="{{ route('admit') }}">Go Back
                     </button>
-
-
-
-
                 </div>
             </div>
         </div>

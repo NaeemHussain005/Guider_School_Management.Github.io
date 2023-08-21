@@ -493,7 +493,7 @@
                     <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                         <div class="tf__single_blog">
                             <a class="tf__single_blog_img" href="#">
-                                <img src="{{ asset('backend/assets/images/blog_4.jpg') }}" alt="blog" class="img-fluid w-100">
+                                <img src="{{ asset('images/blog_4.jpg') }}" alt="blog" class="img-fluid w-100">
                             </a>
                             <div class="tf__single_blog_text">
                                 <a class="category red" href="#">UI/UX</a>

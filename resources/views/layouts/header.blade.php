@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
 
-    <title>Guider || Online Education Learning HTML Template</title>
+    <title>Guider School</title>
 
     <link rel="icon" type="image/png" href="{{ asset('/images/favicon.png') }}">
     <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
@@ -55,18 +55,18 @@
                         <a class="nav-link" href="{{ route('team') }}">team</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('admit') }}">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('career') }}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}">contact</a>
                     </li>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('login') }}">Register</a>
                 </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('admission') }}">Admission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('career') }}">Careers</a>
-                    </li>
                 </ul>
                 
                    {{-- <li class="nav-item">
